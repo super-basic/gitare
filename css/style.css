@@ -724,47 +724,49 @@ html {
 /* line 197, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section {
   min-height: 700px;
+  overflow: hidden;
 }
 
-/* line 199, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 200, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section__container {
   padding-top: 32px;
   position: relative;
 }
 
-/* line 202, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 203, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section__title {
   margin-bottom: 40px;
 }
 
-/* line 204, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 205, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section__cards-box {
   display: inline-flex;
+  justify-content: center;
   margin-bottom: 25px;
 }
 
-/* line 208, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 210, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section__cards-item {
   margin-right: 40px;
 }
 
-/* line 210, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 212, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section__cards-item:last-child {
   margin-right: 0px;
 }
 
-/* line 212, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 214, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section__icons-box {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* line 217, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 219, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section__icons-item:last-child {
   margin-right: 0px;
 }
 
-/* line 219, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 221, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section__first-elipse {
   position: absolute;
   top: 80px;
@@ -772,7 +774,7 @@ html {
   z-index: -1;
 }
 
-/* line 224, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 226, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .second-section__second-elipse {
   position: absolute;
   top: 364px;
@@ -780,7 +782,7 @@ html {
   z-index: -1;
 }
 
-/* line 230, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 232, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .cards-item {
   border-radius: 10px;
   width: 360px;
@@ -791,12 +793,12 @@ html {
   position: relative;
 }
 
-/* line 238, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 240, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .cards-item__img {
   height: 335px;
 }
 
-/* line 240, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 242, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .cards-item__text {
   width: 280px;
   font-size: 36px;
@@ -808,40 +810,40 @@ html {
   font-weight: bold;
 }
 
-/* line 250, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 252, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .cards-item_orande {
   background: #f28b64;
 }
 
-/* line 253, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 255, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .cards-item_blue {
   background: #5290ea;
 }
 
-/* line 256, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 258, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .icons-item {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 259, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 261, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .icons-item__img {
   margin-right: 20px;
   width: 80px;
 }
 
-/* line 262, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 264, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .icons-item__text {
   font-size: 18px;
 }
 
-/* line 264, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 266, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .icons-item__text span {
   font-size: 48px;
   font-weight: bold;
 }
 
-/* line 268, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 270, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .third-section {
   position: relative;
   min-height: 640px;
@@ -850,7 +852,7 @@ html {
   z-index: 0;
 }
 
-/* line 274, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 276, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .third-section__container {
   display: flex;
   flex-direction: row;
@@ -860,23 +862,23 @@ html {
   padding-top: 46px;
 }
 
-/* line 281, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 283, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .third-section__right-wrapper {
   max-width: 480px;
 }
 
-/* line 283, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 285, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .third-section__right-title {
   margin-bottom: 20px;
 }
 
-/* line 285, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 287, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .third-section__text {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-/* line 288, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 290, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .third-section__first-elipse {
   position: absolute;
   top: 140px;
@@ -884,33 +886,33 @@ html {
   z-index: -1;
 }
 
-/* line 293, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 295, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .third-section__figure {
   position: absolute;
   top: 249px;
   left: 15px;
 }
 
-/* line 297, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 299, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .third-section__second-elipse {
   position: absolute;
   right: -120px;
   top: -120px;
 }
 
-/* line 302, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 304, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .title__hr_top {
   bottom: 75px;
 }
 
-/* line 306, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 308, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .footer__img {
   position: absolute;
   left: -250px;
   bottom: 0px;
 }
 
-/* line 310, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 312, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .footer__container {
   min-height: 272px;
   display: flex;
@@ -918,9 +920,273 @@ html {
   justify-content: flex-end;
 }
 
-/* line 315, ../../../WebstormProjects/project-2/src/sass/style.sass */
+/* line 317, ../../../WebstormProjects/project-2/src/sass/style.sass */
 .footer__title {
   margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  /* line 321, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 323, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 326, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .left-wrapper img {
+    width: 750px;
+  }
+  /* line 328, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 331, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 550px;
+    height: 200px;
+  }
+  /* line 334, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 337, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .right-wrapper {
+    right: 20px;
+  }
+  /* line 339, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 10px;
+  }
+  /* line 341, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 560px;
+  }
+  /* line 343, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 600px;
+  }
+  /* line 345, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .second-section__cards-box {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 348, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .cards-item {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 351, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 270px;
+  }
+  /* line 353, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .cards-item__text {
+    top: 120px;
+    font-size: 30px;
+  }
+  /* line 356, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .icons-item__img {
+    margin-right: 10px;
+  }
+  /* line 358, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .third-section__container {
+    margin-right: 10px;
+  }
+  /* line 360, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 364, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 530px;
+  }
+  /* line 366, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 70px;
+  }
+  /* line 368, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 400px;
+  }
+  /* line 370, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 373, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .left-wrapper img {
+    width: 550px;
+  }
+  /* line 376, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 379, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 410px;
+    height: 130px;
+  }
+  /* line 382, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 385, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .title {
+    font-size: 60px;
+  }
+  /* line 387, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .right-wrapper {
+    top: 75px;
+    width: 300px;
+  }
+  /* line 390, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .right-wrapper__text {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  /* line 394, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .buttons__main-btn {
+    font-size: 14px;
+    margin-right: 10px;
+    width: 160px;
+    height: 50px;
+  }
+  /* line 399, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .buttons__icon-btn {
+    font-size: 14px;
+  }
+  /* line 401, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .elipse {
+    width: 150px;
+    height: 150px;
+  }
+  /* line 404, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .elipse__subtract {
+    width: 110px;
+    height: 110px;
+  }
+  /* line 407, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 170px;
+    height: 170px;
+  }
+  /* line 410, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 450px;
+  }
+  /* line 412, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .second-section__container {
+    padding-top: 20px;
+  }
+  /* line 415, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .second-section__title {
+    margin-bottom: 25px;
+  }
+  /* line 417, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .second-section__cards-box {
+    margin-bottom: 10px;
+  }
+  /* line 419, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .second-section__first-elipse {
+    right: -35px;
+  }
+  /* line 421, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 262px;
+    left: -35px;
+  }
+  /* line 424, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .elipse_big {
+    width: 250px;
+    height: 250px;
+  }
+  /* line 427, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .cards-item {
+    width: 220px;
+    height: 220px;
+  }
+  /* line 430, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 200px;
+  }
+  /* line 432, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 22px;
+    top: 92px;
+    right: -75px;
+  }
+  /* line 437, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .icons-item__img {
+    width: 50px;
+  }
+  /* line 439, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 14px;
+  }
+  /* line 441, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 30px;
+  }
+  /* line 443, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 510px;
+  }
+  /* line 445, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .third-section__left-title {
+    display: none;
+  }
+  /* line 447, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 600px;
+  }
+  /* line 449, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .third-section__container {
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  /* line 453, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .third-section__right-title {
+    margin-bottom: 10px;
+  }
+  /* line 456, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .title__hr_top {
+    bottom: 60px;
+  }
+  /* line 459, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .footer__img {
+    width: 500px;
+  }
+  /* line 461, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  /* line 463, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .footer__container {
+    min-height: 210px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 472, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 476, ../../../WebstormProjects/project-2/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
